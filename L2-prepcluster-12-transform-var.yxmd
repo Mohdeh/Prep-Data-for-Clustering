@@ -1,0 +1,436 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">\\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>climate-data-sample.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="City" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="State" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Date Last Winter Freeze" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Date First Winter Freeze" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Growing Season Length" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Jan Avg Tot Prec" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Feb Avg Tot Prec" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Mar Avg Tot Prec" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Apr Avg Tot Prec" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="May Avg Tot Prec" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Jun Avg Tot Prec" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Jul Avg Tot Prec" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Aug Avg Tot Prec" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Sep Avg Tot Prec" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Oct Avg Tot Prec" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Nov Avg Tot Prec" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Dec Avg Tot Prec" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Jan Avg Rain" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Feb Avg Rain" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Mar Avg Rain" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Apr Avg Rain" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="May Avg Rain" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Jun Avg Rain" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Jul Avg Rain" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Aug Avg Rain" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Sep Avg Rain" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Oct Avg Rain" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Nov Avg Rain" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Dec Avg Rain" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Jan Avg Snow" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Feb Avg Snow" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Mar Avg Snow" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Apr Avg Snow" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="May Avg Snow" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Jun Avg Snow" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Jul Avg Snow" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Aug Avg Snow" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Sep Avg Snow" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Oct Avg Snow" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Nov Avg Snow" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Dec Avg Snow" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Jan Avg Temp" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Feb Avg Temp" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Mar Avg Temp" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Apr Avg Temp" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="May Avg Temp" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Jun Avg Temp" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Jul Avg Temp" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Aug Avg Temp" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Sep Avg Temp" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Oct Avg Temp" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Nov Avg Temp" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Dec Avg Temp" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Elevation" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: \\Mac\Home\Documents\L2-PreparingDataForClustering\climate-data-sample.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="186" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date Last Winter Freeze" selected="True" type="Date" size="10" />
+            <SelectField field="Date First Winter Freeze" selected="True" type="Date" size="10" />
+            <SelectField field="Longitude" selected="True" type="Double" size="8" />
+            <SelectField field="Latitude" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="282" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mohsen\AppData\Local\Temp\Engine_1528_799bd6c570e44871b1b44b721197b3a3_\Engine_5340_5ce1040b791045b2bfc8dc885c6d4ead_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="270" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Latitude" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Latitude - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings>
+        <Position x="378" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">StoreID=False,City=True,State=True,Date Last Winter Freeze=True,Date First Winter Freeze=True,Growing Season Length=True,Jan Avg Tot Prec=True,Feb Avg Tot Prec=True,Mar Avg Tot Prec=True,Apr Avg Tot Prec=True,May Avg Tot Prec=True,Jun Avg Tot Prec=True,Jul Avg Tot Prec=True,Aug Avg Tot Prec=True,Sep Avg Tot Prec=True,Oct Avg Tot Prec=True,Nov Avg Tot Prec=True,Dec Avg Tot Prec=True,Jan Avg Rain=True,Feb Avg Rain=True,Mar Avg Rain=True,Apr Avg Rain=True,May Avg Rain=True,Jun Avg Rain=True,Jul Avg Rain=True,Aug Avg Rain=True,Sep Avg Rain=True,Oct Avg Rain=True,Nov Avg Rain=True,Dec Avg Rain=True,Jan Avg Snow=True,Feb Avg Snow=True,Mar Avg Snow=True,Apr Avg Snow=True,May Avg Snow=True,Jun Avg Snow=True,Jul Avg Snow=True,Aug Avg Snow=True,Sep Avg Snow=True,Oct Avg Snow=True,Nov Avg Snow=True,Dec Avg Snow=True,Jan Avg Temp=True,Feb Avg Temp=True,Mar Avg Temp=True,Apr Avg Temp=True,May Avg Temp=True,Jun Avg Temp=True,Jul Avg Temp=True,Aug Avg Temp=True,Sep Avg Temp=True,Oct Avg Temp=True,Nov Avg Temp=True,Dec Avg Temp=True,Elevation=True,Longitude=True,Latitude=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="474" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mohsen\AppData\Local\Temp\Engine_1528_799bd6c570e44871b1b44b721197b3a3_\Engine_5340_be9c7941f158445fa266b37b7dab6cb9_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="474" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mohsen\AppData\Local\Temp\Engine_1528_799bd6c570e44871b1b44b721197b3a3_\Engine_5340_72a24a90d67945099c36aa765e6e181c_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="474" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mohsen\AppData\Local\Temp\Engine_1528_799bd6c570e44871b1b44b721197b3a3_\Engine_5340_595e01835c2941ca8699ca46ef2ec729_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="594" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeDiff([Date Last Winter Freeze], &quot;2009-04-23&quot;, 'days')" field="LastWinterFreezeDiff" size="4" type="Int32" />
+            <FormulaField expression="DateTimeDiff([Date First Winter Freeze], &quot;2009-10-06&quot;, 'days')" field="FirstWinterFreezeDiff" size="4" type="Int32" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>LastWinterFreezeDiff = DateTimeDiff([Date Last Winter Freeze], "2009-04-23", 'da...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="690" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mohsen\AppData\Local\Temp\Engine_1528_799bd6c570e44871b1b44b721197b3a3_\Engine_5340_4873f984849740c2b419f9d066f9dd47_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="678" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">\\Mac\Home\Documents\L2-PreparingDataForClustering\DataPrepExerciseResults.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DataPrepExerciseResults.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Reports" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Interactive" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>L2-prepcluster-12-transform-var</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="6563b31c-a21d-4edb-b19c-905c8f12c266" />
+      <Telemetry>
+        <PreviousWorkflowId value="6caf4b64-de82-4fac-83bc-c0a3bbf4f7b6" />
+        <OriginWorkflowId value="6563b31c-a21d-4edb-b19c-905c8f12c266" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
